@@ -3,7 +3,7 @@
 Vapor is a framework for writing server applications, HTTP services and backends in Swift. It provides a really nice API to enable you to write safe, efficient and maintainable applications in Swift.
 
 <a href="https://discord.gg/vapor">
-![Vapor](https://user-images.githubusercontent.com/1342803/75634175-4876d680-5bd9-11ea-90d6-12c7b6a9ee3f.png)
+<img src="https://user-images.githubusercontent.com/1342803/75634175-4876d680-5bd9-11ea-90d6-12c7b6a9ee3f.png" alt="Vapor">
 </a>
 
 ## 🚀 Getting Started
