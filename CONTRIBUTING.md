@@ -4,9 +4,13 @@ We're excited to see you're interested in contributing to Vapor! This document c
 
 ## Reporting Issues
 
-Go ahead and [open a new issue](https://github.com/vapor/vapor/issues/new). The team will be notified and we should get back to you shortly.
+Go ahead and open a new issue [on Vapor](https://github.com/vapor/vapor/issues/new) or whichever package you're experiencing the issue with. The team will be notified and we should get back to you shortly.
 
 We give you a few sections to fill out to help us hunt down the issue more effectively. Be sure to fill everything out to help us get everything fixed up as fast as possible.
+
+## Security Issues
+
+If you discover a security issue with Vapor, please follow [our security procedure](https://github.com/vapor/vapor/security/policy). Please **do not** publicly report an issue until it has been fixed. We have a disclosure policy and timelines in the linked security procdecure
 
 ## Pull Requests
 
