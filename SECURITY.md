@@ -1,20 +1,23 @@
 # Security Policy
 
-## Supported Versions
+Version|Support status
+-----:|:----:
+`4.x`    |:white_check_mark:
+`<= 3.x` |:x:
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+_Legend_:
+  - ✅ Currently supported, receives all security and other updates
+  - 🔙 Legacy support, receives backported security updates only
+  - ❌ Unsupported
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 4.x.x   | :white_check_mark: |
-| < 4.x   | :x:                |
 
 ## Private Disclosure Process
 
-The Vapor Core Team ask that known and suspected vulnerabilities be privately and responsibly disclosed by emailing [security@vapor.codes](security@vapor.codes) or message one of the Core team on [Discord](http://vapor.team) with the all the required detail.
+The Vapor Core Team ask that known and suspected vulnerabilities be privately and responsibly disclosed by [filling out a vulnerability report](https://github.com/vapor/vapor/security/advisories/new) on Github[^1]. Vulnerabilities may also be privately and responsibly disclosed by emailing all pertinent information to [security@vapor.codes](mailto:security@vapor.codes).
 
-**Do not file a public issue.**
+[^1]: See [Github's official documentation of the vulnerability report feature](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) for additional privacy and safety details.
+
+**⚠️ Please do _not_ file a public issue! ⚠️**
 
 ### When to report a vulnerability
 
