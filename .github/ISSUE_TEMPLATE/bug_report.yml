@@ -1,6 +1,5 @@
 name: Bug Report
 description: Report an issue in Vapor
-title: ''
 labels: ['bug']
 body:
   - type: markdown
