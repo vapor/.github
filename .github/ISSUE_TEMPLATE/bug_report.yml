@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report an issue in Vapor
+title: '[Bug]: '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        🚀 Thank you for contributing!
+  - type: input
+    id: summary
+    attributes:
+      label: Describe the issue
+      description: 'A clear and concise one-;line description of the problem.'
+      placeholder: 'Summary'
+    validations:
+      required: true
+  - type: input
+    id: vapor-version
+    attributes:
+      label: Vapor version
+      description: 'The version of Vapor you are using. This can be found in Xcode or your Package.resolved file.'
+      placeholder: '4.x.x'
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: Operating system and version
+      description: 'The name and version of the operating system you are running Vapor on, such as "macOS 14.3" or "Ubuntu Linux 22.04".'
+      placeholder: 'GLaDOS 21.12.07'
+    validations:
+      required: true
+  - type: input
+    id: swift-version
+    attributes:
+      label: Swift version
+      description: 'The version of Swift you are using to build Vapor. Try swift package --version.'
+      placeholder: 'Swift Package Manager - Swift 5.10.0-dev'
+    validations:
+      required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Tell us how to reproduce this issue. Please provide as much detail as possible; if we can't recreate
+        it, fixing it gets a lot harder!
+      placeholder: |
+        1. 
+        2. 
+        ...
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Outcome
+      description: |
+        Describe the incorrect behavior and the difference between it and the expected behavior in as much detail as possible.
+      placeholder: |
+        My CPU caught fire, but the flames were at least twice the size they were supposed to be.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: 'Please include any additional information you think might be helpful.'
+      placeholder: |
+        My computer is an M3, but I'm running Vapor in an Intel Docker container.
