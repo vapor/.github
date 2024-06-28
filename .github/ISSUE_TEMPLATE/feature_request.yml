@@ -25,6 +25,6 @@ body:
     id: alternatives
     attributes:
       label: Have you considered any alternatives?
-      description: 'A clear and concise description of any alternative solutions or features you've considered.'
+      description: "A clear and concise description of any alternative solutions or features you've considered."
       placeholder: |
         I thought about building a bonfire under the computer, but it makes a much bigger mess.
