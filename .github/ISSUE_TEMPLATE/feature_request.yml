@@ -1,0 +1,30 @@
+name: Feature Request
+description: Suggest an idea for Vapor
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes: 
+      value: |
+        🚀 Thank you for contributing!
+  - type: input
+    id: problem
+    attributes:
+      label: Please summarize your feature request
+      description: 'A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]'
+      placeholder: 'Summary'
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the functionality you're seeking in more detail
+      description: 'A clear and concise description of what you want to accomplish.'
+      placeholder: |
+        I can't get my CPU to catch fire without assembly language.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Have you considered any alternatives?
+      description: 'A clear and concise description of any alternative solutions or features you've considered.'
+      placeholder: |
+        I thought about building a bonfire under the computer, but it makes a much bigger mess.
