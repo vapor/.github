@@ -10,7 +10,7 @@ body:
     id: summary
     attributes:
       label: Describe the issue
-      description: 'A clear and concise one-;line description of the problem.'
+      description: 'A clear and concise one-line description of the problem.'
       placeholder: 'Summary'
     validations:
       required: true
