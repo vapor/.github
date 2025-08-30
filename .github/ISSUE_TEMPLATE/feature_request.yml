@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest an idea for Vapor
-labels: ['enhancement']
+type: 'Feature'
 body:
   - type: markdown
     attributes: 
