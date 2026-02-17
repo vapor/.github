@@ -31,3 +31,7 @@ New features are little more complex. If you come up with an idea, you should fo
 If it isn't your PR that causes the CI failure, one of the maintainers can helps sort out the issue.
     
 - After everything is okayed, one of the maintainers will merge the PR and tag a new release. Congratulations on your contribution!
+
+## AI Assisted Development
+
+Please note that we have [a dedicated AI policy](https://github.com/vapor/vapor/blob/main/AGENTS.md) dictating how AI can be used for Vapor contributions which you should understand if using AI to contribute.
